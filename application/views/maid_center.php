@@ -30,7 +30,16 @@
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.0.1/css/bootstrap.css">
     -->
 
+<style type="text/css">
+  
+  .header-10{
+    background-color: white;
 
+  }
+  .navbar-header  a{
+    color: black;
+  }
+</style>
     </head>
 
     <body>
@@ -40,13 +49,13 @@
             <div class="navbar col-sm-12" role="navigation">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle"></button>
-                    <a class="brand" href="#">Maid Center</a>
+                    <a class="brand" href="#" style="color:black">Maid Center</a>
                 </div>
                 <div class="collapse navbar-collapse pull-right">
                     <ul class="nav pull-left">
-                      <li><a href="<?php echo base_url()?>">home</a></li>
-                      <li><a href="<?php echo base_url()?>real_estate">real estate</a></li>
-                      <li><a href="<?php echo base_url() ?>maid_center">maid center</a></li>
+                      <li ><a href="<?php echo base_url()?>" style="color:black">Home</a></li>
+                      <li><a href="<?php echo base_url()?>real_estate" style="color:black">Real Estate</a></li>
+                      <li><a href="<?php echo base_url() ?>maid_center" style="color:orange">Maid Center</a></li>
                     </ul>
                     <form class="navbar-form pull-left">
                         <a class="btn btn-info" href="#">Contact Us</a>
