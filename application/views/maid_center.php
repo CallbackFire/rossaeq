@@ -65,10 +65,7 @@
         </div>
     </div>
 </header>
-
-<section class="">
-  <br>
-<div class="container">
+<section class="header-10-sub  bg-midnight-blue">
 <div class="row">
 
 <!-- Collection of maid images to be clicked -->
@@ -94,12 +91,8 @@
 <?php endif; ?>
 
           </div>
+</section><!-- end of section body-->
 
-    </div>
-
-
-</div>
-</section>
 <section>
     <?php $this->load->view('footer') ?>
 </section>
