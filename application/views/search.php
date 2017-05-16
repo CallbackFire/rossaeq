@@ -9,18 +9,15 @@
 
 
           <link rel="stylesheet" href="<?php echo base_url() ?>assets/bootstrap/css/bootstrap.css">
-          <link rel="stylesheet" href="<?php echo base_url() ?>assets/bootstrap/css/hipster_cards.css">
+      
 
             <link rel="stylesheet" href="<?php echo base_url() ?>assets/flat-ui/css/flat-ui.css">
         <!-- Using only with Flat-UI (free)-->
         <link rel="stylesheet" href="<?php echo base_url() ?>assets/bootstrap/css/style.css">
         <!-- end -->
-
-
-
         <link rel="shortcut icon" href="<?php echo base_url()?>assets/flat-ui/images/favicon.ico">
 
-        <link rel="stylesheet" href="<?php echo base_url() ?>assets/flat-ui/css/list_view.css">
+    
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flat-ui/2.3.0/css/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff" />
 
         <!-- Using only with Flat-UI (free)-->
@@ -60,26 +57,26 @@
                   <li><a href="<?php echo base_url() ?>maid_center" style="color:black">Maid center</a></li>
                 </ul>
                 <form class="navbar-form pull-left">
-                    <a class="btn btn-info" href="#">Contact Us</a>
+                    <a class="btn btn-warning" href="#">Contact Us</a>
                 </form>
             </div>
         </div>
     </div>
 </div>
 </header>
-
-<div class="wrapper">
-    <div class="container">
-<br>
-        <div class="row search">
-          <div class="col-sm-8 col-sm-offset-4">
+<section class="v-center bg-midnight-blue" >
+      
+          
+              <div class="header-10-sub container" >
+                 <div class="row search">
+          <div class="col-sm-10 ">
             <form role="form" action="real_estate" method="POST">
                     <div class="input-group">
                       <input  type="text" class="form-control input-lg" name="search_term">
                       <span class="input-group-btn">
 
                       </span>
-                         &nbsp;<button type="submit" class="btn btn-primary">Search <span class="glyphicon glyphicon-search"></span></button>
+                         &nbsp;<button type="submit" class="btn btn-warning">Search <span class="glyphicon glyphicon-search"></span></button>
 
 
 
@@ -88,6 +85,14 @@
 
           </div>
         </div>
+              </div>
+         
+         
+      </section>
+<div class="wrapper">
+    <div class="container">
+
+        
         <br>
 
     <div class="row">
@@ -132,45 +137,18 @@
 
            </table>
 
-      <?php else: ?>
-<div class="row">
+  <?php else: ?>
+
+    <div class="row">
 
 
-  <div class="col-sm-4">
-    <div class="card">
-      <div class="card-block">
-        <h3 class="card-title">QUICK RENT</h3>
-        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-        <a href="#" class="btn btn-primary">Open</a>
-      </div>
     </div>
-  </div>
-  <div class="col-sm-4">
-    <div class="card">
-      <div class="card-block">
-        <h3 class="card-title">PLOTS</h3>
-        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-        <a href="#" class="btn btn-primary">Open</a>
-      </div>
-    </div>
-  </div>
-  <div class="col-sm-4">
-    <div class="card">
-    <div class="card-block">
-      <h3 class="card-title">FOR SALE</h3>
-      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-      <a href="#" class="btn btn-primary">Open</a>
-    </div>
-  </div>
-  </div>
-  </div>
-
     <?php endif; ?>
 
+      
     </div>
-            </div>
-        </div>
-    </div>
+  </div>
+</div>
 </div>
 
 

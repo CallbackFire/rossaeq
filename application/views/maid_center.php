@@ -39,6 +39,7 @@
   .navbar-header  a{
     color: black;
   }
+
 </style>
     </head>
 
@@ -58,7 +59,7 @@
                       <li><a href="<?php echo base_url() ?>maid_center" style="color:orange">Maid Center</a></li>
                     </ul>
                     <form class="navbar-form pull-left">
-                        <a class="btn btn-info" href="#">Contact Us</a>
+                        <a class="btn btn-warning" href="#">Contact Us</a>
                     </form>
                 </div>
             </div>

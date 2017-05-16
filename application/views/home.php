@@ -39,7 +39,7 @@
                             <li><a href="<?php echo base_url() ?>maid_center" style="color:black">Maid center</a></li>
                           </ul>
                           <form class="navbar-form pull-left">
-                              <a class="btn btn-info" href="#">Contact Us</a>
+                              <a class="btn btn-warning" href="#">Contact Us</a>
                           </form>
                       </div>
                   </div>
@@ -50,7 +50,7 @@
       <section class="header-10-sub v-center bg-midnight-blue" >
           <div class="background">&nbsp;</div>
           <div>
-              <div class="container" >
+              <div class="container">
                   <div class="hero-unit" >
                         <h1>Real estate and Maid Center</h1>
                       <p>The fastest way to find real estate property and<br> christian maids.</p>
