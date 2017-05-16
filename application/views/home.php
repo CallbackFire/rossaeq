@@ -15,7 +15,12 @@
         <link rel="stylesheet" href="<?php echo base_url() ?>assets/bootstrap/css/style.css">
         <!-- end -->
 
-
+<style type="text/css">
+  
+  .header-10{
+    background-color: white;
+  }
+</style>
     </head>
 
     <body>
