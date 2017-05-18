@@ -12,8 +12,8 @@ class Dashboard_controller extends CI_Controller {
 		parent::__construct();
 		//check for login
 		if (!$LOGGED_IN) {
-			//redirect('login');
-			$this->login();
+			redirect('login');
+			//$this->login();
 		}else{
 			$this->index();
 		}
