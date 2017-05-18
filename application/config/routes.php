@@ -53,6 +53,7 @@ $route['default_controller'] = 'welcome';
 $route['real_estate'] = 'Real_estate_controller';
 $route['maid_center'] = 'Maid_center_controller';
 $route['dashboard'] = 'Dashboard_controller/Dashboard_controller';
+$route['login'] = 'Dashboard_controller/Dashboard_controller/login';
 
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
