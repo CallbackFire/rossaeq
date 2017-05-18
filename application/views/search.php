@@ -37,6 +37,18 @@
   .navbar-header  a{
     color: black;
   }
+  .real_estate_search_box {
+    flex:1;
+    flex-direction: row;
+    padding-top: 50px;
+
+  }
+  .input-lg{
+    padding-right: 100px;
+    padding-bottom: 15px;
+   
+    background-color: white;
+  }
 </style>
 
     </head>
@@ -69,7 +81,7 @@
           
               <div class="header-10-sub container" >
                  <div class="row search">
-          <div class="col-sm-10 ">
+          <div class="col-sm-12 real_estate_search_box">
             <form role="form" action="real_estate" method="POST">
                     <div class="input-group">
                       <input  type="text" class="form-control input-lg" name="search_term">
