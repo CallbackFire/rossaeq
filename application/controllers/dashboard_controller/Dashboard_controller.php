@@ -3,7 +3,7 @@
 <?php 
 
 
-class Dashboard_Controller extends CI_Controller {
+class Dashboard_controller extends CI_Controller {
 
 	public function __construct(){
 		parent::__construct();
@@ -11,7 +11,8 @@ class Dashboard_Controller extends CI_Controller {
 	}
 	
 	public function index(){
-		$this->load->view('dasboard/index');
+		$this->load->view('dashboard/index');
 	}
+}
 
  ?>
