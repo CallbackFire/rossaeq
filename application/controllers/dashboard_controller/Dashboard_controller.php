@@ -9,24 +9,18 @@ class Dashboard_controller extends CI_Controller {
 
 	public function __construct()
 	{
-		$LOGGED_IN = false;
+		$LOGGED_IN = true;
 		parent::__construct();
 		//check for login
 		$this->load->model('auth_model');
 		if (!$LOGGED_IN) {
 			redirect('login');
-		}else{
-			$this->index();
 		}
-
-		
 	}
 	
 	public function index()
 	{
-		if (!$LOGGED_IN) {
-			$this->login();
-		}
+		
 		$this->load->view('dashboard/index');
 	}
 
