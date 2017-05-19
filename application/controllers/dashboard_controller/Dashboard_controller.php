@@ -12,10 +12,9 @@ class Dashboard_controller extends CI_Controller {
 		$LOGGED_IN = false;
 		parent::__construct();
 		//check for login
-
+		$this->load->model('auth_model');
 		if (!$LOGGED_IN) {
-			redirect('login/');
-			//$this->login();
+			redirect('login');
 		}else{
 			$this->index();
 		}
