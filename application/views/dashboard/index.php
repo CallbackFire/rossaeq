@@ -40,23 +40,22 @@
               <div class="menu_section">
                 <h3>Options</h3>
                 <ul class="nav side-menu">
-                  <li><a><i class="fa fa-bug"></i> Maid Center <span class="fa fa-chevron-down"></span></a>
+                  <li><a><i class="fa fa-female"></i> Maid Center <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
+                      <li><a href="e_commerce.html">Add Maid</a></li>
                       <li><a href="e_commerce.html">Entries</a></li>
                       
                     </ul>
                   </li>
-                  <li><a><i class="fa fa-windows"></i> Real Estate <span class="fa fa-chevron-down"></span></a>
+                  <li><a><i class="fa fa-home"></i> Real Estate <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
                       <li><a href="page_403.html">For Rent</a></li>
                       <li><a href="page_404.html">For Sale</a></li>
                       <li><a href="page_500.html">Categories</a></li>
-                      <li><a href="plain_page.html">Plain Page</a></li>
-                      <li><a href="login.html">Login Page</a></li>
-                      <li><a href="pricing_tables.html">Pricing Tables</a></li>
+                      
                     </ul>
                   </li>
-                  <li><a><i class="fa fa-windows"></i> Analytics <span class="fa fa-chevron-down"></span></a>
+                  <li><a><i class="fa fa-pie-chart"></i> Analytics <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
                       <li><a href="page_403.html">Most Searched</a></li>
                     </ul>
