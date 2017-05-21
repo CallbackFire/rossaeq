@@ -55,6 +55,9 @@ $route['maid_center'] = 'Maid_center_controller';
 $route['dashboard'] = 'Dashboard_controller/Dashboard_controller';
 $route['login'] = 'authentication/Auth_controller/login';
 //$route['authenticate/(.+)']= 'authentication/Auth_controller/authenticate$1';
-
+$route['add_maid'] = 'dashboard_controller/Dashboard_controller/add_maid';
+$route['entry_list'] = 'dashboard_controller/Dashboard_controller/maid_entry_list';
+$route['for_sale_entry_list'] = 'dashboard_controller/Dashboard_controller/for_sale_entry_list';
+$route['for_rent_entry_list'] = 'dashboard_controller/Dashboard_controller/for_rent_entry_list';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
