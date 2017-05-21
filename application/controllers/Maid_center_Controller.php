@@ -15,15 +15,12 @@ class Maid_Center_controller extends CI_Controller {
 
 	}
 
-
 	public function hire_maid($maid_id){
 
 		echo "this where you get the deetails and instructio on how to get a connecgtion";
 		echo "for maid number ".$maid_id;
 		//$this->load->view('hire_maid_view');
 	}
-
-
 
 }
 

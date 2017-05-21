@@ -57,18 +57,18 @@ class Dashboard_controller extends CI_Controller {
 	}
 
 	//accessor methods
-	public function add_maid($post_data){
-		$this->load->view('maid_center/add_maid_form')
+	public function add_maid(){
+		$this->load->view('maid_center/add_maid_form');
 	}
 
 	public function maid_entry_list(){
 		$this->load->view('maid_center/maid_entry_list');
 	}
 	public function for_sale_entry_list(){
-		$this->load->view('real_estate/for_sale_entry_list')
+		$this->load->view('real_estate/for_sale_entry_list');
 	}
 	public function for_rent_entry_list(){
-		$this->load->view('real_estate/for_rent_entry_list')
+		$this->load->view('real_estate/for_rent_entry_list');
 	}
 }
 
